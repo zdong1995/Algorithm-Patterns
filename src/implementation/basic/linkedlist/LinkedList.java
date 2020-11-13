@@ -4,16 +4,6 @@ package implementation.basic.linkedlist;
  * @author Zhang Dong
  * @version 1.0
  */
-class ListNode {
-  int val;
-  ListNode next;
-
-  public ListNode(int val) {
-    this.val = val;
-    this.next = null;
-  }
-}
-
 public class LinkedList {
   ListNode head;
 
