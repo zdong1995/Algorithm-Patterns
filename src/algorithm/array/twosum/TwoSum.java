@@ -1,4 +1,4 @@
-package algorithm.tree.twosum;
+package algorithm.array.twosum;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -6,7 +6,7 @@ import algorithm.tree.TreeNode;
  * Given two nodes in a binary tree, find their lowest common ancestor.
  * The given two nodes are guaranteed to be in the binary tree
  */
-public class LCA1 {
+public class LCA {
   public TreeNode lowestCommon(TreeNode root, TreeNode a, TreeNode b) {
     // base case
     if (root == null || root == a || root == b) {
