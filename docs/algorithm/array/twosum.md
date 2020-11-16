@@ -1,14 +1,35 @@
 # 1.2 Two Sum Pattern
 
-## 1. Sort
+## Summary
 
-### Merge Sort
+There will be two main method to solve the Two Sum Pattern problem: Two Points and HashMap.
 
-### Quick Sort
+### Two Pointers:
 
-### Selection Sort
+Use two pointers `left` and `right` start from begining and the end.
 
-## 2. Two Sum Pattern
+* If `array[left] + array[right] == target` : return solution
+* If `array[left] + array[right] > target`  : `right--`
+* If `array[left] + array[right] < target`  : `left++`
+
+### HashMap:
+
+Iterate over the whole array, for each number check whether `target - number` is in the HashMap.
+
+* If `map.contains(target - number)` : return solution
+* Else : add current number to the HashMap
+
+The solution depends on how we clarify the problem:
+
+* Sorted array: Prefer two pointers.
+* Unsorted array: One pass scan and store in HashMap will be better.
+* With duplicates: May need extra HashSet to deduplicate.
+
+## Problems
+
+The source code of Two Sum Pattern problems: 
+
+\[!\[solution\]\([https://badgen.net/badge/source/solution/green?icon=github](https://badgen.net/badge/:subject/:status/:color?icon=github)\)\]\([https://github.com/zdong1995/coding-interview/tree/master/src/algorithm/array/twosum](https://github.com/zdong1995/coding-interview/tree/master/src/algorithm/array/twosum)\)
 
 ### 2 Sum - Unsorted
 
