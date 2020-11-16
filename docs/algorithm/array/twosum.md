@@ -29,8 +29,6 @@ The solution depends on how we clarify the problem:
 
 The source code of Two Sum Pattern problems: 
 
-\[!\[solution\]\([https://badgen.net/badge/source/solution/green?icon=github](https://badgen.net/badge/:subject/:status/:color?icon=github)\)\]\([https://github.com/zdong1995/coding-interview/tree/master/src/algorithm/array/twosum](https://github.com/zdong1995/coding-interview/tree/master/src/algorithm/array/twosum)\)
-
 ### 2 Sum - Unsorted
 
 HashMap to store the visited element, for each iteration, check whether the complement in the map.

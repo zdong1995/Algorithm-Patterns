@@ -1,0 +1,4 @@
+language: java
+
+jdk:
+  - 1.8.0_231-b11
