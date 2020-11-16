@@ -23,6 +23,8 @@ HashMap to store number and list of indices, for each iteration, check the compl
 Sort + Two Pointers, when sum is greater than target, than for current right, the pair sum with left in range `[left, right)` will all be greater than target.
   
 #### 2 Sum - Smaller
+Sort + Two Pointers, when sum is smaller than target, than for current left, the pair sum with right in range `(left, right]` will all be smaller than target.
+
 #### 2 Sum - Closest
 #### 2 Sum - Data Structure Design
 #### 2 Sum - Difference
