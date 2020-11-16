@@ -40,6 +40,9 @@ Optimize `find()`:
 - Solution 2: ArrayList + Insertion Sort + Two Pointers to find, add O(n) and find O(n)
 
 #### 2 Sum - Difference
+- Solution 1: Two Pointers similar to sliding window, guarantee `left < right` and not out of bound
+- Solution 2: HashMap and check whether `array[i] + target` or `array[i] - target` in the map
+
 #### 3 Sum
 #### 3 Sum - Greater
 #### 3 Sum - Closest
