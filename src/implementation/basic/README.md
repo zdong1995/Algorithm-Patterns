@@ -1,5 +1,5 @@
-## Implementation - Basic
+# Implementation - Basic
 
-### 1. LinkedList
+## 1. LinkedList
 
-### 2. HashMap
+## 2. HashMap

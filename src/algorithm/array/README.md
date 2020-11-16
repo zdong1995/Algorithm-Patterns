@@ -1,16 +1,19 @@
-## Algorithm - Array
+# Algorithm - Array
 
-### 1. Sort
+## 1. Sort
 #### Merge Sort
 #### Quick Sort
 #### Selection Sort
 
-### 2. Two Sum Pattern
+## 2. Two Sum Pattern
 #### 2 Sum - Unsorted
 HashMap to store the visited element, for each iteration, check whether the complement in the map.
 
 #### 2 Sum - Sorted
 Two pointers from begin and end, decrement right when `sum > target`, increment left when `sum < target`.
+
+#### 2 Sum - All Pairs Indices
+HashMap to store number and list of indices, for each iteration, check the complement and enumerate all possible indices pairs of current number pair.
 
 #### 2 Sum - All Unique Pairs
 - Solution 1: Sort + Two Pointers, skip duplicates after finding pairs
