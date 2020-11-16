@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class TwoSumSorted {
   // Two Pointers: Time O(n), Space O(1)
-  public static int[] twoSumSorted(int[] nums, int target) {
+  public int[] twoSumSorted(int[] nums, int target) {
     if (nums == null || nums.length == 0) {
       return new int[] {-1, -1};
     }
@@ -25,11 +25,5 @@ public class TwoSumSorted {
       }
     }
     return new int[] {-1, -1};
-  }
-
-  public static void main(String[] args) {
-    int[] nums = {1};
-    int[] res = twoSumSorted(nums, 8);
-    System.out.println(Arrays.toString(res));
   }
 }
