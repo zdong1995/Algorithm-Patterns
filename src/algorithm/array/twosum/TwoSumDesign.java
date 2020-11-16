@@ -8,7 +8,7 @@ import java.util.*;
  * find - Find if there exists any pair of numbers which sum is equal to the value.
  */
 public class TwoSumDesign {
-  // Method 1: HashSet
+  // Method 1: HashMap -> Optimize add
   // Time: add O(1), find O(n)
   // Space: O(n)
   Map<Integer, Integer> counter;
@@ -33,8 +33,32 @@ public class TwoSumDesign {
   }
 }
 
+class TwoSumSetVersion {
+  // Method 2: HashMap + Set -> Optimize find
+  // Time: add O(n), find O(1)
+  // Space: O(n)
+  Map<Integer, Integer> counter;
+  Set<Integer> sums; // eager computation for all possible sums
+
+  public TwoSumSetVersion() {
+    this.counter = new HashMap<>();
+    this.sums = new HashSet<>();
+  }
+
+  public void add(int number) {
+    for (int num : counter.keySet()) {
+      sums.add(num + number);
+    }
+    counter.put(number, counter.getOrDefault(number, 0) + 1);
+  }
+
+  public boolean find(int value) {
+    return sums.contains(value);
+  }
+}
+
 class TwoSumListVersion {
-  // method 2: ArrayList + Two Pointers -> Optimized add
+  // method 3: ArrayList + Two Pointers -> Optimized add
   // Time: add O(1), find O(nlogn)
   // Space: O(n)
   List<Integer> nums;
@@ -65,10 +89,10 @@ class TwoSumListVersion {
     return false;
   }
 
-  // method 3: ArrayList Insertion Sort + Two Pointers -> Optimize find
+  // method 4: ArrayList Insertion Sort + Two Pointers -> Optimize find
   // Time: add O(n), find O(n)
   // Space: O(n)
-  public void add3(int number) {
+  public void add4(int number) {
     nums.add(number);
     int idx = nums.size() - 1;
     // insertion sort to swap until maintain the correct order
@@ -80,7 +104,7 @@ class TwoSumListVersion {
     }
   }
 
-  public boolean find3(int value) {
+  public boolean find4(int value) {
     int left = 0;
     int right = nums.size() - 1;
 
