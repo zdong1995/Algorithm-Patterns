@@ -20,6 +20,8 @@ HashMap to store number and list of indices, for each iteration, check the compl
 - Solution 2: HashMap to record `<number, index>`, and Set to deduplicate pair
 
 #### 2 Sum - Greater
+Sort + Two Pointers, when sum is greater than target, than for current right, the pair sum with left in range `[left, right)` will all be greater than target.
+  
 #### 2 Sum - Smaller
 #### 2 Sum - Closest
 #### 2 Sum - Data Structure Design
