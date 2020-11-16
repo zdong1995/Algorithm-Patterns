@@ -9,17 +9,17 @@ Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
 * Algorithm
   * [Array](docs/algorithm/array/)
   * [Tree](docs/algorithm/tree/)
-  * [String](https://github.com/zdong1995/coding-interview#string)
-  * [Binary Search](https://github.com/zdong1995/coding-interview#binary-search)
-  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/coding-interview#bfs)
-  * [Depth First Search \(DFS\)](https://github.com/zdong1995/coding-interview#dfs)
-  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/coding-interview#dp)
+  * [String](docs/algorithm/string)
+  * [Binary Search](docs/algorithm/binary-search)
+  * [Breadth First Search \(BFS\)](docs/algorithm/bfs)
+  * [Depth First Search \(DFS\)](docs/algorithm/dfs)
+  * [Dynamic Programming \(DP\)](docs/algorithm/dp)
 * Implementation
-  * [Data Structure](https://github.com/zdong1995/coding-interview#data-structure)
-  * [Java](https://github.com/zdong1995/coding-interview#java)
+  * [Data Structure](docs/implementation/data-structure)
+  * [Java](docs/implementation/java)
 * Object Oriented Programming
-  * [Design Pattern](https://github.com/zdong1995/coding-interview#design-pattern)
-  * [OOD Practice](https://github.com/zdong1995/coding-interview#ood-practice)
+  * [Design Pattern](docs/object-oriented-design/designpattern)
+  * [OOD Practice](docs/object-oriented-design/ood)
 
 ## Algorithm
 
