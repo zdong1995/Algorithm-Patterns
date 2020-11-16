@@ -29,6 +29,10 @@ Sort + Two Pointers, when sum is smaller than target, than for current left, the
 Sort + Two Pointers, maintain one global min difference, update result if the difference between sum and target is smaller.
 
 #### 2 Sum - Data Structure Design
+- Solution 1: HashMap to record counter, add O(1) and find O(n)
+- Solution 2: ArrayList + Sort + Two Pointers to find, add O(1) and find O(nlogn)
+- Solution 3: ArrayList + Insertion Sort Each Time + Two Pointers to find, add O(n) and find O(n)
+
 #### 2 Sum - Difference
 #### 3 Sum
 #### 3 Sum - Greater
