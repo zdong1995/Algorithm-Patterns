@@ -26,6 +26,8 @@ Sort + Two Pointers, when sum is greater than target, than for current right, th
 Sort + Two Pointers, when sum is smaller than target, than for current left, the pair sum with right in range `(left, right]` will all be smaller than target.
 
 #### 2 Sum - Closest
+Sort + Two Pointers, maintain one global min difference, update result if the difference between sum and target is smaller.
+
 #### 2 Sum - Data Structure Design
 #### 2 Sum - Difference
 #### 3 Sum
