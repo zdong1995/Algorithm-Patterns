@@ -1,3 +1,6 @@
 .idea
 coding-interview.iml
 out
+target
+src/main/resources
+src/test
