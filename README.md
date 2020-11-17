@@ -1,6 +1,6 @@
 # Introduction
 
-[![git](https://badgen.net/badge/git/zdong1995/blue?icon=github)](https://github.com/zdong1995/) [![Travis Build Status](https://travis-ci.org/zdong1995/coding-interview.svg?branch=master)](https://travis-ci.org/github/zdong1995/coding-interview)
+[![git](https://badgen.net/badge/git/zdong1995/blue?icon=github)](https://github.com/zdong1995/) ![Build](https://github.com/zdong1995/coding-interview/workflows/Build/badge.svg)
 
 Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
 
