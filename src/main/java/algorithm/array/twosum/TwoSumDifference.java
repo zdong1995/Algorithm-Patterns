@@ -33,7 +33,7 @@ public class TwoSumDifference {
     return new int[] {-1, -1};
   }
 
-  // Solution 2: HashSet
+  // Solution 2: HashSMap
   // Time O(n), Space O(n)
   public static int[] twoSumDifference2(int[] array, int target) {
     if (array == null || array.length == 0) {
