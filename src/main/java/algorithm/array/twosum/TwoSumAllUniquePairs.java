@@ -44,7 +44,7 @@ public class TwoSumAllUniquePairs {
     return res;
   }
 
-  // Solution 2: HashMap
+  // Solution 2: HashSet
   // Time O(n), Space O(n)
   public List<List<Integer>> twoSumAllUniquePairsHashMap(int[] array, int target) {
     List<List<Integer>> res = new ArrayList<>();
@@ -52,20 +52,20 @@ public class TwoSumAllUniquePairs {
       return res;
     }
 
-    Map<Integer, Integer> visited = new HashMap<>(); // number, first appeared index
-    Set<Integer> used = new HashSet<>(); // indices used in solution pairs
+    Set<Integer> visited = new HashSet<>(); // record unique numbers visited
+    Set<Integer> used = new HashSet<>(); // indices used in solution pairs to deduplicate
 
-    for (int i = 0; i < array.length; i++) {
-      int diff = target - array[i];
-      if (visited.containsKey(diff)) {
+    for (int j : array) {
+      int diff = target - j;
+      if (visited.contains(diff)) {
         // need to check whether this pair is already used before
-        if (!used.contains(array[i]) && !used.contains(diff)) {
-          res.add(Arrays.asList(array[i], diff));
-          used.add(array[i]);
+        if (!used.contains(j) && !used.contains(diff)) { // haven't found current pair
+          res.add(Arrays.asList(j, diff));
+          used.add(j);
           used.add(diff);
         }
       } else {
-        visited.put(array[i], i);
+        visited.add(j);
       }
     }
     return res;

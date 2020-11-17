@@ -1,5 +1,7 @@
 package algorithm.array.twosum;
 
+import com.sun.tools.javac.code.Attribute;
+
 import java.util.*;
 
 /**
@@ -11,16 +13,16 @@ public class ThreeSum {
   // Time O(n^2 + nlogn) = O(n^2), Space O(n) for sort
   public static List<List<Integer>> threeSum(int[] array, int target) {
     List<List<Integer>> res = new ArrayList<>();
-    if (array == null || array.length == 0) {
+    if (array == null || array.length < 3) {
       return res;
     }
     Arrays.sort(array);
 
     for (int i = 0; i < array.length - 2; i++) {
-      // run two sum to find pair equal to - target in range (i, n-1]
       if (i > 0 && array[i] == array[i - 1]) { // skip duplicate start index
         continue;
       }
+      // run two sum to find pair equal to - target in range (i, n-1]
       int left = i + 1;
       int right = array.length - 1;
       while (left < right) {
@@ -44,11 +46,46 @@ public class ThreeSum {
     return res;
   }
 
-  // Method 2: Sort + HashMap to store first two sum
+  // Method 2: HashSet without Sort
+  // Time: O(n^2) Space: O(n)
+  public static List<List<Integer>> threeSum3(int[] array, int target) {
+    List<List<Integer>> res = new ArrayList<>();
+    if (array == null || array.length < 3) {
+      return res;
+    }
+    Set<Integer> first = new HashSet<>();
+
+    for (int i = 0; i < array.length; i++) { // enumerate each first number
+      if (first.contains(array[i])) { // skip duplicate for first number
+        continue;
+      }
+      Set<Integer> visited = new HashSet<>();
+      Set<Integer> used = new HashSet<>();
+      int twoSum = target - array[i];
+      // find all unique pairs that sum to twoSum
+      for (int j = i + 1; j < array.length; j++) {
+        // enumerate each number and check whether the diff in hash set
+        int diff = twoSum - array[j];
+        if (visited.contains(diff)) {
+          if (!used.contains(array[j]) && !used.contains(diff)) {
+            res.add(Arrays.asList(array[i], array[j], twoSum - array[j]));
+            used.add(array[j]);
+            used.add(diff);
+          }
+        } else {
+          visited.add(array[j]);
+        }
+      }
+      first.add(array[i]);
+    }
+    return res;
+  }
+
+  // Method 3: Sort + HashMap counter
   // Time: O(n^2 + nlogn) = O(n^2), Space = O(n) for sort + map
   public static List<List<Integer>> threeSum2(int[] array, int target) {
     List<List<Integer>> res = new ArrayList<>();
-    if (array == null || array.length == 0) {
+    if (array == null || array.length < 3) {
       return res;
     }
     Arrays.sort(array);
@@ -88,7 +125,7 @@ public class ThreeSum {
   }
 
   public static void main(String[] args) {
-    int[] nums = {0, 1, -4, 6, 9, -11, 16, 8, 5, 0};
+    int[] nums = {0, 1, 1, -4, 0, 6, 9, -11, 16, 8, 5, 0, 0};
     int[] targets = {5, 0, -10, 16};
     for (int target : targets) {
       System.out.println("Target is " + target);
@@ -96,7 +133,7 @@ public class ThreeSum {
     }
     for (int target : targets) {
       System.out.println("Target is " + target);
-      print(threeSum2(nums, target));
+      print(threeSum3(nums, target));
     }
   }
 
