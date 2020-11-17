@@ -9,17 +9,17 @@ Everyting you need to know to prepare for a technical interview. Algorithm, Obje
 * Algorithm
   * [Array](docs/algorithm/array/)
   * [Tree](docs/algorithm/tree/)
-  * [String](docs/algorithm/string)
-  * [Binary Search](docs/algorithm/binary-search)
-  * [Breadth First Search \(BFS\)](docs/algorithm/bfs)
-  * [Depth First Search \(DFS\)](docs/algorithm/dfs)
-  * [Dynamic Programming \(DP\)](docs/algorithm/dp)
+  * [String](docs/algorithm/string/)
+  * [Binary Search](docs/algorithm/binary-search/)
+  * [Breadth First Search \(BFS\)](docs/algorithm/bfs/)
+  * [Depth First Search \(DFS\)](docs/algorithm/dfs/)
+  * [Dynamic Programming \(DP\)](docs/algorithm/dp/)
 * Implementation
-  * [Data Structure](docs/implementation/data-structure)
-  * [Java](docs/implementation/java)
+  * [Data Structure](docs/implementation/data-structure/)
+  * [Java](docs/implementation/java/)
 * Object Oriented Programming
-  * [Design Pattern](docs/object-oriented-design/designpattern)
-  * [OOD Practice](docs/object-oriented-design/ood)
+  * [Design Pattern](docs/object-oriented-design/designpattern/)
+  * [OOD Practice](docs/object-oriented-design/ood/)
 
 ## Algorithm
 
