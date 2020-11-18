@@ -1,7 +1,5 @@
 package algorithm.array.twosum;
 
-import com.sun.tools.javac.code.Attribute;
-
 import java.util.*;
 
 /**

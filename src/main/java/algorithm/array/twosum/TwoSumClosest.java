@@ -6,39 +6,33 @@ import java.util.List;
 
 /**
  * Find the pair of elements in a given array that sum to a value that is closest to the given target number.
- * Return the values of the two numbers.
+ * Return the min difference.
  */
 public class TwoSumClosest {
   // Sort + Two Pointers
   // Time O(nlogn + n) = O(nlogn), Space O(n)
-  public List<Integer> twoSumClosest(int[] array, int target) {
-    List<Integer> res = new ArrayList<>();
+  public int twoSumClosest(int[] array, int target) {
     if (array == null || array.length == 0) {
-      return res;
+      return -1;
     }
     Arrays.sort(array);
+
+    int minDiff = Integer.MAX_VALUE;
+
     int left = 0;
     int right = array.length - 1;
-    int minDiff = Integer.MAX_VALUE;
 
     while (left < right) {
       int sum = array[left] + array[right];
+      minDiff = Math.min(Math.abs(target - sum), minDiff);
       if (sum == target) {
-        return Arrays.asList(array[left], array[right]);
+        return 0;
       } else if (sum < target) {
-        if (target - sum < minDiff) {
-          minDiff = target - sum;
-          res = Arrays.asList(array[left], array[right]);
-        }
         left++;
       } else {
-        if (sum - target < minDiff) {
-          minDiff = sum - target;
-          res = Arrays.asList(array[left], array[right]);
-        }
         right--;
       }
     }
-    return res;
+    return minDiff == Integer.MAX_VALUE ? - 1 : minDiff;
   }
 }

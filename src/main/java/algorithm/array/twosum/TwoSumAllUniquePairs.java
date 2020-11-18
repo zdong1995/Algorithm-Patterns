@@ -55,17 +55,17 @@ public class TwoSumAllUniquePairs {
     Set<Integer> visited = new HashSet<>(); // record unique numbers visited
     Set<Integer> used = new HashSet<>(); // indices used in solution pairs to deduplicate
 
-    for (int j : array) {
-      int diff = target - j;
+    for (int num : array) {
+      int diff = target - num;
       if (visited.contains(diff)) {
         // need to check whether this pair is already used before
-        if (!used.contains(j) && !used.contains(diff)) { // haven't found current pair
-          res.add(Arrays.asList(j, diff));
-          used.add(j);
+        if (!used.contains(num) && !used.contains(diff)) { // haven't found current pair
+          res.add(Arrays.asList(num, diff));
+          used.add(num);
           used.add(diff);
         }
       } else {
-        visited.add(j);
+        visited.add(num);
       }
     }
     return res;
