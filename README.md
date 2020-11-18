@@ -1,8 +1,11 @@
 # Introduction
 
-[![git](https://badgen.net/badge/Git/zdong1995/blue?icon=github)](https://github.com/zdong1995/) ![build](https://github.com/zdong1995/coding-interview/workflows/Build/badge.svg) ![java](https://img.shields.io/badge/Language-java-orange.svg)
+[![git](https://badgen.net/badge/Git/zdong1995/blue?icon=github)](https://github.com/zdong1995/)
+[![git](https://badgen.net/badge/Repo/star/yellow?icon=git)](https://github.com/zdong1995/coding-interview)
+![build](https://github.com/zdong1995/coding-interview/workflows/Build/badge.svg) 
+![java](https://img.shields.io/badge/Language-java-orange.svg)
 
-Everyting you need to know to prepare for a technical interview. Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
+Everything you need to know to prepare for a technical interview. Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
 
 ## Table of Contents
 

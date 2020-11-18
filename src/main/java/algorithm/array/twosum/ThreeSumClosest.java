@@ -9,6 +9,8 @@ import java.util.Map;
  * Return the sum of the three integers.
  */
 public class ThreeSumClosest {
+  // Sort + TwoPointers
+  // Time O(n^2 + nlogn) = O(n^2), Space O(n) for sort
   public int threeSumCloset(int[] array, int target) {
     if (array == null || array.length == 0) {
       return 0;
