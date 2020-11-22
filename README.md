@@ -7,7 +7,7 @@ Everything you need to know to prepare for a technical interview. Algorithm, Obj
 ## Table of Contents
 
 * Algorithm
-  * [Array](https://github.com/zdong1995/coding-interview#array-string)
+  * [Array/String](https://github.com/zdong1995/coding-interview#array-string)
   * [LinkedList](https://github.com/zdong1995/coding-interview#linkedlist)
   * [Tree](https://github.com/zdong1995/coding-interview#tree)
   * [Breadth First Search \(BFS\)](https://github.com/zdong1995/coding-interview#bfs)
@@ -27,7 +27,7 @@ Popular interview algorithm problems summarized by different patterns.
 ### Array-String
 
 * Sorting Algorithm
-* [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md)
+* [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md): [Code](src/main/java/algorithm/array/twosum)
 * Binary Search
 * Deduplicate
 * Top K Elements
@@ -69,7 +69,7 @@ Popular interview algorithm problems summarized by different patterns.
 
 ## Implementation
 
-Implementation of data strucutres and practice of Java programming language.
+Implementation of data structure and practice of Java programming language.
 
 ### Data Structure
 

@@ -7,7 +7,7 @@ Everything you need to know to prepare for a technical interview. Algorithm, Obj
 ## Table of Contents
 
 * Algorithm
-  * [Array](./#array-string)
+  * [Array/String](./#array-string)
   * [LinkedList](./#linkedlist)
   * [Tree](./#tree)
   * [Breadth First Search \(BFS\)](./#bfs)
@@ -24,10 +24,10 @@ Everything you need to know to prepare for a technical interview. Algorithm, Obj
 
 Popular interview algorithm problems summarized by different patterns.
 
-### Array/String
+### Array-String
 
 * Sorting Algorithm
-* [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md)
+* [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md): [Code](src/main/java/algorithm/array/twosum)
 * Binary Search
 * Deduplicate
 * Top K Elements
