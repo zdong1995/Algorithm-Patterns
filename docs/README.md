@@ -7,24 +7,24 @@ Everything you need to know to prepare for a technical interview. Algorithm, Obj
 ## Table of Contents
 
 * Algorithm
-  * [Array](https://github.com/zdong1995/coding-interview#array-string)
-  * [LinkedList](https://github.com/zdong1995/coding-interview#linkedlist)
-  * [Tree](https://github.com/zdong1995/coding-interview#tree)
-  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/coding-interview#bfs)
-  * [Depth First Search \(DFS\)](https://github.com/zdong1995/coding-interview#dfs)
-  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/coding-interview#dp)
+  * [Array](./#array-string)
+  * [LinkedList](./#linkedlist)
+  * [Tree](./#tree)
+  * [Breadth First Search \(BFS\)](./#bfs)
+  * [Depth First Search \(DFS\)](./#dfs)
+  * [Dynamic Programming \(DP\)](./#dp)
 * Implementation
-  * [Data Structure](https://github.com/zdong1995/coding-interview#data-structure)
-  * [Java](https://github.com/zdong1995/coding-interview#java)
+  * [Data Structure](./#data-structure)
+  * [Java](./#java)
 * Object Oriented Programming
-  * [Design Pattern](https://github.com/zdong1995/coding-interview#design-pattern)
-  * [OOD Practice](https://github.com/zdong1995/coding-interview#ood-practice)
+  * [Design Pattern](./#design-pattern)
+  * [OOD Practice](./#ood-practice)
 
 ## Algorithm
 
 Popular interview algorithm problems summarized by different patterns.
 
-### Array-String
+### Array/String
 
 * Sorting Algorithm
 * [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md)
