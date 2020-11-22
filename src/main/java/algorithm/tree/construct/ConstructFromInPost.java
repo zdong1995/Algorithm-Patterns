@@ -20,7 +20,7 @@ public class ConstructFromInPost {
                              int[] in, int inLeft, int inRight,
                              Map<Integer, Integer> nodeIndex) {
     // base case
-    if (postLeft > postRight) {
+    if (postLeft > postRight) { // the null after leaf node
       return null;
     }
     // find the root node of current level to divide to left and right part

@@ -19,7 +19,7 @@ public class ConstructFromPrePost {
                              int[] post, int postLeft, int postRight,
                              Map<Integer, Integer> nodeIndex) {
     // base case
-    if (preLeft > preRight) {
+    if (preLeft > preRight) { // the null after leaf node
       return null;
     }
     // find the root node of current level to divide to left and right part
