@@ -1,56 +1,87 @@
-# Introduction
+# Coding Interview
 
-[![git](https://badgen.net/badge/Git/zdong1995/blue?icon=github)](https://github.com/zdong1995/)
-[![git](https://badgen.net/badge/Repo/star/yellow?icon=git)](https://github.com/zdong1995/coding-interview)
-![build](https://github.com/zdong1995/coding-interview/workflows/Build/badge.svg) 
-![java](https://img.shields.io/badge/Language-java-orange.svg)
+[![git](https://badgen.net/badge/Git/zdong1995/blue?icon=github)](https://github.com/zdong1995/) [![git](https://badgen.net/badge/Repo/star/yellow?icon=git)](https://github.com/zdong1995/coding-interview) ![build](https://github.com/zdong1995/coding-interview/workflows/Build/badge.svg) ![java](https://img.shields.io/badge/Language-java-orange.svg)
 
 Everything you need to know to prepare for a technical interview. Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
 
 ## Table of Contents
 
 * Algorithm
-  * [Array](docs/algorithm/array/)
-  * [Tree](docs/algorithm/tree/)
-  * [String](docs/algorithm/string/)
-  * [Binary Search](docs/algorithm/binary-search/)
-  * [Breadth First Search \(BFS\)](docs/algorithm/bfs/)
-  * [Depth First Search \(DFS\)](docs/algorithm/dfs/)
-  * [Dynamic Programming \(DP\)](docs/algorithm/dp/)
+  * [Array](./#array-string)
+  * [LinkedList](./#linkedlist)
+  * [Tree](./#tree)
+  * [Breadth First Search \(BFS\)](./#bfs)
+  * [Depth First Search \(DFS\)](./#dfs)
+  * [Dynamic Programming \(DP\)](./#dp)
 * Implementation
-  * [Data Structure](docs/implementation/data-structure/)
-  * [Java](docs/implementation/java/)
+  * [Data Structure](./#data-structure)
+  * [Java](./#java)
 * Object Oriented Programming
-  * [Design Pattern](docs/object-oriented-design/designpattern/)
-  * [OOD Practice](docs/object-oriented-design/ood/)
+  * [Design Pattern](./#design-pattern)
+  * [OOD Practice](./#ood-practice)
 
 ## Algorithm
 
 Popular interview algorithm problems summarized by different patterns.
 
-### Array
+### Array/String
 
-* [Sorting Algorithm](docs/algorithm/array/1.1-sorting-algorithm.md)
-* [Two Sum Pattern](docs/algorithm/array/1.2-two-sum.md)
+* Sorting Algorithm
+* [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md)
+* Binary Search
+* Deduplicate
+* Top K Elements
+* Sliding Window
+* Intervals
+* String Removal/Decoding/Encoding
+
+### LinkedList
+
+* Reverse LinkedList
+* Slow-Fast Pointers
+* Operations on LinkedList
 
 ### Tree
 
-* [Lowest Common Ancestor](docs/algorithm/tree/2.1-lca.md)
-* [Path Sum](docs/algorithm/tree/2.2-path-sum.md)
+* Tree Traversal
+* Tree Recursion
+* Binary Search Tree
+* Lowest Common Ancestor
+* Path Sum
+* Serialize/Deserialize
+
+### BFS
+
+* Level Order Traversal
+* BFS in Matrix
+* BFS in Graph
+* Topology Sort
+* Best First Search
+
+### DFS
+
+* Subsets
+* Permutation
+* Combination Sum
+*  All Combinations
+
+### DP
 
 ## Implementation
 
+Implementation of data strucutres and practice of Java programming language.
+
 ### Data Structure
 
-* [LinkedList](docs/implementation/data-structure/1.1-linkedlist.md)
-* [HashMap](docs/implementation/data-structure/1.2-hashmap.md)
+* LinkedList
+* HashMap
 * Heap
 * Queue
 * Stack
 
 ### Java
 
-* [Multi-thread](docs/implementation/java/2.1-multi-thread.md)
+* Multi-thread
 * ConcurrentHashMap
 * Enum
 * Nested Class
@@ -62,12 +93,12 @@ Popular interview algorithm problems summarized by different patterns.
 
 ### Design Pattern
 
-* [Singleton](docs/object-oriented-design/designpattern/1.1-singleton.md)
+* Singleton
 * Builder
 
 ### OOD Practice
 
-* [Parking Lot](docs/object-oriented-design/ood/2.1-parking-lot.md)
+* Parking Lot
 * BlackJack
 * In Memory File System
 * Elevator
