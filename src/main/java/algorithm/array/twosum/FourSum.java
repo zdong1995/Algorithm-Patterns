@@ -7,7 +7,7 @@ import java.util.*;
  * Find all unique quadruplets in the array which gives the sum of target.
  */
 public class FourSum {
-  // HashMap + HashSet
+  // Method 1: HashMap + HashSet
   // Time O(n^2), Space O(n)
   public List<List<Integer>> fourSum(int[] nums, int target) {
     Set<List<Integer>> set = new HashSet<>();
@@ -41,6 +41,50 @@ public class FourSum {
         }
       }
     }
-    return  new ArrayList<>(set);
+    return new ArrayList<>(set);
+  }
+
+  // Method 2: Sort + Two Pointer for Three Sum
+  // Time O(n^3), Space O(n) for sort
+  public List<List<Integer>> fourSum2(int[] nums, int target) {
+    Arrays.sort(nums);
+    List<List<Integer>> res = new ArrayList<>();
+
+    // enumerate all possible first number in the quadruplet
+    for (int i = 0; i < nums.length - 3; i++) {
+      if (i > 0 && nums[i] == nums[i - 1]) { // skip all duplicate first number
+        continue;
+      }
+      findThreeSum(res, nums, target - nums[i], i);
+    }
+    return res;
+  }
+
+  private void findThreeSum(List<List<Integer>> res, int[] nums, int target, int start) {
+    for (int i = start + 1; i < nums.length; i++) {
+      if (i > start + 1 && nums[i] == nums[i - 1]) { // skip duplicate start index
+        continue;
+      }
+      // find two sum pairs equal to target - nums[i]
+      int left = i + 1;
+      int right = nums.length - 1;
+      while (left < right) {
+        int sum = nums[left] + nums[right];
+        if (sum == target - nums[i]) {
+          res.add(Arrays.asList(nums[start], nums[i], nums[left++], nums[right--]));
+          // skip duplicate
+          while (left < right && nums[left] == nums[left - 1]) {
+            left++;
+          }
+          while (left < right && nums[right] == nums[right + 1]) {
+            right--;
+          }
+        } else if (sum > target - nums[i]) {
+          right--;
+        } else {
+          left++;
+        }
+      }
+    }
   }
 }

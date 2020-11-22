@@ -140,7 +140,7 @@ public class ThreeSum {
       return;
     }
     for (List<Integer> subList : list) {
-      System.out.println("[" + subList.get(0) + ", " + subList.get(1) + ", " + subList.get(2) +"]");
+      System.out.println(subList);
     }
   }
 }
