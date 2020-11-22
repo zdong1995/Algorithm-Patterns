@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Coding Interview](../README.md)
+* [Coding Interview](README.md)
 
 ## Algorithm
 
