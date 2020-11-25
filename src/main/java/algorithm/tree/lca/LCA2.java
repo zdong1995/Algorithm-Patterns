@@ -1,6 +1,6 @@
 package algorithm.tree.lca;
 
-import algorithm.tree.TreeNode;
+import datastrcture.TreeNode;
 /**
  * Given two nodes in a binary tree, find their lowest common ancestor.
  * The given two nodes may not in the binary tree. Return null if any of the nodes is not in the tree.

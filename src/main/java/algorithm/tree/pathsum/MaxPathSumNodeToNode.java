@@ -1,6 +1,6 @@
 package algorithm.tree.pathsum;
 
-import algorithm.tree.TreeNode;
+import datastrcture.TreeNode;
 
 public class MaxPathSumNodeToNode {
   // sum = the largest sum path that ends at root

@@ -1,6 +1,6 @@
-package implementation.basic.hashmap;
+package datastrcture.hashmap;
 
-import implementation.basic.linkedlist.ListNode;
+import datastrcture.ListNode;
 
 /**
  * Implementation of HashMap, generic type is provided.

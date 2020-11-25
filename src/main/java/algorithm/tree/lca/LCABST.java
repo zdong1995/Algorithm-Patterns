@@ -1,6 +1,6 @@
 package algorithm.tree.lca;
 
-import algorithm.tree.TreeNode;
+import datastrcture.TreeNode;
 
 public class LCABST {
   public TreeNode lcaBST(TreeNode root, TreeNode p, TreeNode q) {

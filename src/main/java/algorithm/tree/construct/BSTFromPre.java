@@ -1,6 +1,6 @@
 package algorithm.tree.construct;
 
-import algorithm.tree.TreeNode;
+import datastrcture.TreeNode;
 
 public class BSTFromPre {
   public TreeNode bstFromPre(int[] preorder) {

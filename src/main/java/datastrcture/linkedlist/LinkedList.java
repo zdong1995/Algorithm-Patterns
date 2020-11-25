@@ -1,4 +1,6 @@
-package implementation.basic.linkedlist;
+package datastrcture.linkedlist;
+
+import datastrcture.ListNode;
 
 /** Implementation of singly linked list in Java.
  * @author Zhang Dong

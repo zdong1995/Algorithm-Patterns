@@ -1,6 +1,6 @@
 package algorithm.tree.lca;
 
-import algorithm.tree.TreeNode;
+import datastrcture.TreeNode;
 
 import java.util.*;
 
