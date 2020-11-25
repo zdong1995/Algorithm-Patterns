@@ -17,6 +17,7 @@
   * [2.1 Reverse LinkedList](algorithm/2.linked-list/2.1-reverse-linkedlist.md)
   * [2.2 Slow-Fast Pointers](algorithm/2.linked-list/2.2-slow-fast-pointers.md)
   * [2.3 Operations on LinkedList](algorithm/2.linked-list/2.3-operations-on-linkedlist.md)
+  * [2.4 Merge LinkedList](algorithm/2.linked-list/2.4-merge-linkedlist.md)
 * [3. Tree](algorithm/3.tree/README.md)
   * [3.1 Tree Traversal](algorithm/3.tree/3.1-tree-traversal.md)
   * [3.2 Tree Recursion](algorithm/3.tree/3.2-tree-recursion.md)
