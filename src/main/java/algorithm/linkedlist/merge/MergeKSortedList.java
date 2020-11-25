@@ -1,8 +1,12 @@
-package algorithm.linkedlist;
+package algorithm.linkedlist.merge;
 
 import datastrcture.ListNode;
 import java.util.*;
 
+/**
+ * You are given an array of k linked lists, each is sorted in ascending order.
+ * Merge all the linked-lists into one sorted linked-list and return it.
+ */
 public class MergeKSortedList {
   // Method 1: K Pointers Merge with MinHeap
   // Time: O(nK*logK), Space: O(K)
