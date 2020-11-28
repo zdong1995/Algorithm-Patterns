@@ -15,8 +15,8 @@ public class LCA3 {
     // when node1 reach end, set node1 to start point of node2, i.e. Node q
     // thus node1 and node2 will traverse same length (height_p + height_q)
     while (node1 != node2) {
-      node1 = node1.parent == null ? q : node1.parent;
-      node2 = node2.parent == null ? p : node2.parent;
+      node1 = node1 == null ? q : node1.parent; // will cover corner case p == null
+      node2 = node2 == null ? p : node2.parent; // will cover corner case q == null
     }
     return node1;
   }
@@ -39,18 +39,18 @@ public class LCA3 {
     }
     return null;
   }
-}
 
-class Node {
-  public int val;
-  public Node left;
-  public Node right;
-  public Node parent;
+  static class Node {
+    public int val;
+    public Node left;
+    public Node right;
+    public Node parent;
 
-  public Node(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-    this.parent = null;
+    public Node(int val) {
+      this.val = val;
+      this.left = null;
+      this.right = null;
+      this.parent = null;
+    }
   }
 }

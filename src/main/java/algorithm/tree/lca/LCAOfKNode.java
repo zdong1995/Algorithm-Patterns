@@ -7,9 +7,9 @@ import java.util.*;
 /**
  * Given K nodes in a binary tree, find their lowest common ancestor.
  */
-public class KNodeLCA {
+public class LCAOfKNode {
   // Recursion: Time O(n), Space O(max(k, height))
-  public TreeNode kNodeLCA(TreeNode root, List<TreeNode> nodes) {
+  public TreeNode lcaOfKNode(TreeNode root, List<TreeNode> nodes) {
     // use hashset to optimize the validation of finding node
     Set<TreeNode> nodeSet = new HashSet<>(nodes);
     return findLCA(root, nodeSet);
