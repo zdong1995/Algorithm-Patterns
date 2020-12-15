@@ -4,7 +4,7 @@
 
 Everything you need to know to prepare for a technical interview. Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
 
-## Table of Contents
+## 目录
 
 * Algorithm
   * [Array/String](./#array-string)
