@@ -18,6 +18,7 @@ The commonly used idea in solving these problems are Two Pointers, Binary Search
 * 3 Sum - Greater/Closest/Smaller/All Unique Pairs
 * 4 Sum
 * K Sum
+* [Code](https://github.com/zdong1995/coding-interview/tree/master/src/main/java/algorithm/array/twosum)
 
 ### 3. Binary Search
 
