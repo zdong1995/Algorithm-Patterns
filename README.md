@@ -27,7 +27,7 @@ Popular interview algorithm problems summarized by different patterns.
 ### Array-String
 
 * Sorting Algorithm
-* [Two Sum Pattern](docs/algorithm/1.array/1.2-two-sum.md): [Code](src/main/java/algorithm/array/twosum)
+* [Two Sum Pattern](docs/algorithm/3_TwoPointers/2_1_two_sum.md): [Code](src/main/java/algorithm/array/twosum)
 * Binary Search
 * Deduplicate
 * Top K Elements

@@ -37,7 +37,7 @@ In the following I only list one solution for some problems. If you are interest
 
 ### 2 Sum - Unsorted
 
-#### [LC 1](https://leetcode.com/problems/two-sum/): Given an unsorted array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+> [LC 1](https://leetcode.com/problems/two-sum/): Given an unsorted array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 HashMap to store the visited element, for each iteration, check whether the complement in the map.
 
@@ -61,7 +61,7 @@ public int[] twoSum(int[] array, int target) {
 
 ### 2 Sum - Sorted
 
-#### [LC 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/): Given an sorted array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+> [LC 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/): Given an sorted array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 Two pointers from begin and end, decrement right when `sum > target`, increment left when `sum < target`.
 
@@ -89,7 +89,7 @@ public int[] twoSumSorted(int[] nums, int target) {
 
 ### 2 Sum - All Pairs Indices
 
-#### Find all pairs of elements in a given array that sum to the given target number. Return all the pairs of indices.
+> Find all pairs of elements in a given array that sum to the given target number. Return all the pairs of indices.
 
 HashMap to store number and list of indices, for each iteration, check the complement and enumerate all possible indices pairs of current number pair.
 
@@ -118,13 +118,11 @@ public List<List<Integer>> twoSumAllPairs(int[] array, int target) {
 
 ### 2 Sum - All Unique Pairs
 
-#### [LT 587](https://www.lintcode.com/problem/two-sum-unique-pairs/): Given an unsorted array with duplicates and target value. Find all pairs of elements that sum to the target number. Return all the distinct pairs of values.
+> [LT 587](https://www.lintcode.com/problem/two-sum-unique-pairs/): Given an unsorted array with duplicates and target value. Find all pairs of elements that sum to the target number. Return all the distinct pairs of values.
 
-* Solution 1: Sort + Two Pointers, skip duplicates after finding pairs
-* Solution 2: One HashSet to record vistied number and another HashSet to deduplicate pair
+#### Solution 1: Sort + Two Pointers
+Use two pointers to find the pairs, need to skip duplicates after finding pairs
 
-{% tabs %}
-{% tab title="Two Pointers" %}
 ```java
 // Solution 1: Sort + Two pointers
 // Time O(nlogn + n) = O(nlogn), Space O(n)
@@ -162,9 +160,11 @@ public List<List<Integer>> twoSumAllUniquePairs(int[] array, int target) {
   return res;
 }
 ```
-{% endtab %}
 
-{% tab title="HashSet" %}
+#### Solution 2: HashSet
+
+One HashSet to record vistied number and another HashSet to deduplicate pair
+
 ```java
 // Solution 2: HashSet
 // Time O(n), Space O(n)
@@ -193,12 +193,10 @@ public List<List<Integer>> twoSumAllUniquePairsHashMap(int[] array, int target) 
   return res;
 }
 ```
-{% endtab %}
-{% endtabs %}
 
 ### 2 Sum - Greater
 
-#### [LT 443](https://www.lintcode.com/problem/two-sum-greater-than-target): Given an array of integers, find how many pairs in the array such that their sum is bigger than a specific target number. Return the number of pairs.
+> [LT 443](https://www.lintcode.com/problem/two-sum-greater-than-target): Given an array of integers, find how many pairs in the array such that their sum is bigger than a specific target number. Return the number of pairs.
 
 Sort + Two Pointers, when sum is greater than target, than for current right, the pair sum with left in range `[left, right)` will all be greater than target.
 
@@ -231,7 +229,7 @@ public int twoSumGreater(int[] array, int target) {
 
 ### 2 Sum - Smaller
 
-#### [LT 609](https://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target): Given an array of integers, find how many pairs in the array such that their sum is smaller than a specific target number. Return the number of pairs.
+> [LT 609](https://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target): Given an array of integers, find how many pairs in the array such that their sum is smaller than a specific target number. Return the number of pairs.
 
 Sort + Two Pointers, when sum is smaller than target, than for current left, the pair sum with right in range `(left, right]` will all be smaller than target.
 
@@ -264,7 +262,7 @@ public int twoSumSmaller(int[] array, int target) {
 
 ### 2 Sum - Closest
 
-#### [LT 533](https://www.lintcode.com/problem/two-sum-closest-to-target): Find the pair of elements in a given array that sum to a value that is closest to the given target number. Return the values of the two numbers.
+> [LT 533](https://www.lintcode.com/problem/two-sum-closest-to-target): Find the pair of elements in a given array that sum to a value that is closest to the given target number. Return the values of the two numbers.
 
 Sort + Two Pointers, maintain one global min difference, update minDiff if the difference between sum and target is smaller.
 
@@ -299,7 +297,7 @@ public int twoSumClosest(int[] array, int target) {
 
 ### 2 Sum - Data Structure Design
 
-#### [LC 170](https://leetcode.com/problems/two-sum-iii-data-structure-design/): Design and implement a TwoSum class. It should support the following operations:
+> [LC 170](https://leetcode.com/problems/two-sum-iii-data-structure-design/): Design and implement a TwoSum class. It should support the following operations:
 
 * **add**: Add the number to an internal data structure.
 * **find**:Find if there exists any pair of numbers which sum is equal to the value.
@@ -344,10 +342,10 @@ public class TwoSumDesign {
 
 ### 2 Sum - Difference
 
-#### [LT 610](https://www.lintcode.com/problem/two-sum-difference-equals-to-target): Given an sorted array of integers, find two numbers that their difference equals to a target value. Return a list with two number \[num1, num2\] that num1 is less than num2.
+> [LT 610](https://www.lintcode.com/problem/two-sum-difference-equals-to-target): Given an sorted array of integers, find two numbers that their difference equals to a target value. Return a list with two number \[num1, num2\] that num1 is less than num2.
 
-* Solution 1: Two Pointers similar to sliding window, guarantee `left < right` and not out of bound
-* Solution 2: HashMap and check whether `array[i] + target` or `array[i] - target` in the map
+- Solution 1: Two Pointers similar to sliding window, guarantee `left < right` and not out of bound
+- Solution 2: HashMap and check whether `array[i] + target` or `array[i] - target` in the map
 
 ```java
 // Two Pointers: Time O(n), Space O(1)
@@ -380,14 +378,11 @@ public static int[] twoSumDifference(int[] array, int target) {
 
 ### 3 Sum
 
-#### [LC 15](https://leetcode.com/problems/3sum/): Given an unsorted array of integers. Find all unique triplets in the array which gives the sum of target.
+> [LC 15](https://leetcode.com/problems/3sum/): Given an unsorted array of integers. Find all unique triplets in the array which gives the sum of target.
 
-* Solution 1: Sort + Two Pointers, for each fixed number `array[i]`, find two sum that sums to `target - array[i]`
-* Solution 2: HashSet without Sorting, for each fixed number `array[i]`, use two HashSet to find two sum that sums to `target - array[i]` , need one more HashSet to dedupliate fixed number
-* Solution 3: Sort + HashMap, count the occurrence of each number, for for loop to find a triplet that `array[left] <= array[right] <= (target - array[left] - array[right])` in order to deduplicate
+#### Solution 1: Sort + Two Pointers
+For each fixed number `array[i]`, find two sum that sums to `target - array[i]`
 
-{% tabs %}
-{% tab title="Sort + Two Pointers" %}
 ```java
 // Method 1: Sort + For loop 2 Sum
 // Time O(n^2 + nlogn) = O(n^2), Space O(n) for sort
@@ -426,9 +421,10 @@ public static List<List<Integer>> threeSum(int[] array, int target) {
   return res;
 }
 ```
-{% endtab %}
 
-{% tab title="HashSet" %}
+#### Solution 2: HashSet without Sorting
+For each fixed number `array[i]`, use two HashSet to find two sum that sums to `target - array[i]` , need one more HashSet to dedupliate fixed number
+
 ```java
 // Method 2: HashSet without Sort
 // Time: O(n^2) Space: O(n) for set
@@ -465,9 +461,10 @@ public static List<List<Integer>> threeSum3(int[] array, int target) {
   return res;
 }
 ```
-{% endtab %}
 
-{% tab title="Sort + HashMap" %}
+#### Solution 3: Sort + HashMap
+Count the occurrence of each number, for for loop to find a triplet that `array[left] <= array[right] <= (target - array[left] - array[right])` in order to deduplicate
+
 ```java
 // Method 2: Sort + HashMap to store first two sum
 // Time: O(n^2 + nlogn) = O(n^2), Space = O(n) for sort + map
@@ -512,12 +509,10 @@ public static List<List<Integer>> threeSum2(int[] array, int target) {
   return res;
 }
 ```
-{% endtab %}
-{% endtabs %}
 
 ### 3 Sum - Greater \(Count Triangles\)
 
-#### [LC 611](https://leetcode.com/problems/valid-triangle-number): Given an array of positive integers representing side length of triangle. Take three numbers each time to construct a triangle. Count how many triangles we could construct using the given numbers.
+> [LC 611](https://leetcode.com/problems/valid-triangle-number): Given an array of positive integers representing side length of triangle. Take three numbers each time to construct a triangle. Count how many triangles we could construct using the given numbers.
 
 Sort + Two Pointers, for each fixed number `array[i]`, find two sum that sums greater than`target - array[i]`. When sum is greater than `target - array[i]`, than for current right, the pair sum with left in range `[left, right)` will all be greater than target.
 
@@ -556,7 +551,7 @@ private int countTwoSumGreater(int[] array, int start, int target) {
 
 ### 3 Sum - Smaller
 
-#### [LC 259](https://leetcode.com/problems/3sum-smaller/): Given an array of n integers nums and an integer target, find the number of triplets whose sum is smaller than target.
+> [LC 259](https://leetcode.com/problems/3sum-smaller/): Given an array of n integers nums and an integer target, find the number of triplets whose sum is smaller than target.
 
 Sort + Two Pointers, for each fixed number `array[i]`, find two sum that sums smaller than`target - array[i]`. When sum is greater than `target - array[i]`, than for current left, the pair sum with right in range `(left, right]` will all be smaller than target.
 
@@ -595,7 +590,7 @@ private int countTwoSumSmaller(int[] array, int start, int target) {
 
 ### 3 Sum - Closest
 
-#### [LC 16](https://leetcode.com/problems/3sum-closest/): Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers.
+> [LC 16](https://leetcode.com/problems/3sum-closest/): Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers.
 
 Sort + Two Pointers, for each fixed number `array[i]`, find two sum that sums closest to`target - array[i]`. The trick here is to maintain a signed global `minDiff`, and we keep the same strategy to update it as `minDiff = target - sum`. Thus whether the `minDiff` is positive or negative, the final result will only be the `target - minDiff`, so each time we just need to update one variable, the global `minDiff`.
 
@@ -636,7 +631,7 @@ public int threeSumCloset(int[] array, int target) {
 
 ### Four Sum
 
-[LC 18](https://leetcode.com/problems/4sum/): Given an array of integers and an integer target. Find all unique quadruplets in the array which gives the sum of target.
+> [LC 18](https://leetcode.com/problems/4sum/): Given an array of integers and an integer target. Find all unique quadruplets in the array which gives the sum of target.
 
 #### Solution 1: Sort + Two Pointers to reduce to 3 Sum.
 
