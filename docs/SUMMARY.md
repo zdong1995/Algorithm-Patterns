@@ -4,7 +4,7 @@
 
 ## Algorithm
 
-* [1. LinkedList](algorithm/1_Fundamental/README.md)
+* [1. Fundamental](algorithm/1_Fundamental/README.md)
 * [2. Recursion](algorithm/2_Recursion/README.md)
 * [3. Two Pointers](algorithm/3_TwoPointers/README.md)
   * [3.1 Two Sum Pattern](algorithm/3_TwoPointers/3_1_two_sum.md)
@@ -22,8 +22,3 @@
 
 * [1. Design Pattern](object-oriented-design/designpattern/README.md)
 * [2. OOD Practice](object-oriented-design/ood/README.md)
-
----
-
-* [My LeetCode Solution](https://github.com/zdong1995/CrackingAlgorithms)
-
