@@ -2,26 +2,26 @@
 
 [![git](https://badgen.net/badge/Git/zdong1995/blue?icon=github)](https://github.com/zdong1995/) [![git](https://badgen.net/badge/Repo/star/yellow?icon=git)](https://github.com/zdong1995/coding-interview) ![build](https://github.com/zdong1995/coding-interview/workflows/Build/badge.svg) ![java](https://img.shields.io/badge/Language-java-orange.svg)
 
-Everything you need to know to prepare for a technical interview. Algorithm, Object Oriented Design, Data Structure, Design Patterns using Java.
+从数据结构与算法开始，到 Java，面向对象设计，准备你的下一场技术面试。
 
-## Table of Contents
+## 目录
 
-* Algorithm
-  * [Fundamental](https://github.com/zdong1995/coding-interview##fundamental)
-  * [Recursion](https://github.com/zdong1995/coding-interview##recursion)
-  * [Two Pointers](https://github.com/zdong1995/coding-interview##two-pointers)
-  * [Sorting](https://github.com/zdong1995/coding-interview##sorting)
-  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/coding-interview##bfs)
-  * [Depth First Search \(DFS\)](https://github.com/zdong1995/coding-interview##dfs)
-  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/coding-interview##dp)
-* Implementation
-  * [Data Structure](https://github.com/zdong1995/coding-interview##data-structure)
-  * [Java](https://github.com/zdong1995/coding-interview##java)
-* Object Oriented Programming
-  * [Design Pattern](https://github.com/zdong1995/coding-interview##design-pattern)
-  * [OOD Practice](https://github.com/zdong1995/coding-interview##ood-practice)
+* 算法
+  * [基础数据结构与算法](./#fundamental)
+  * [优雅重要的递归思维](./#recursion)
+  * [巧妙高效的双指针](./#two-pointers)
+  * [轻松手写排序算法](./#sorting)
+  * [宽度优先搜索](./#bfs)
+  * [深度优先搜索](./#dfs)
+  * [动态规划思维](./#dp)
+* Java
+  * [动手实现数据结构](./#data-structure)
+  * [Java 语言特性](./#java)
+* 面向对象程序设计
+  * [设计模式](./#design-pattern)
+  * [OOD 练习](./#ood-practice)
 
-## Algorithm
+## 算法
 
 Popular interview algorithm problems summarized by different patterns.
 
@@ -45,7 +45,7 @@ Popular interview algorithm problems summarized by different patterns.
 
 ### Two Pointers
 
-* [x] [Two Sum Pattern](docs/en/algorithm/3_TwoPointers/3_1_two_sum.md): [Code](src/main/java/algorithm/array/twosum)
+* [x] [3.1 从 2 sum 开始带你解决 K sum 所有变种](algorithm/3_TwoPointers/3_1_two_sum.md): [Code](../../src/main/java/algorithm/array/twosum)
 * [ ] Slow-Fast Pointers
 * [ ] K-way Merge
 * [ ] Deduplication

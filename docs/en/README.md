@@ -45,7 +45,7 @@ Popular interview algorithm problems summarized by different patterns.
 
 ### Two Pointers
 
-* [x] [Two Sum Pattern](algorithm/3_TwoPointers/3_1_two_sum.md): [Code](../src/main/java/algorithm/array/twosum)
+* [x] [Two Sum Pattern](algorithm/3_TwoPointers/3_1_two_sum.md): [Code](../../src/main/java/algorithm/array/twosum)
 * [ ] Slow-Fast Pointers
 * [ ] K-way Merge
 * [ ] Deduplication
