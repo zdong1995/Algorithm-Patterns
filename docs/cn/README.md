@@ -45,7 +45,7 @@ Popular interview algorithm problems summarized by different patterns.
 
 ### Two Pointers
 
-* [x] [3.1 从 2 sum 开始带你解决 K sum 所有变种](algorithm/3_TwoPointers/3_1_two_sum.md): [Code](../../src/main/java/algorithm/array/twosum)
+* [x] [3.1 从 2 sum 开始带你解决 K sum 所有变种](algorithm/3_TwoPointers/3_1_two_sum.md): [Code](https://github.com/zdong1995/coding-interview/tree/master/src/main/java/algorithm/array/twosum)
 * [ ] Slow-Fast Pointers
 * [ ] K-way Merge
 * [ ] Deduplication
