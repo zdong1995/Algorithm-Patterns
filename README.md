@@ -4,7 +4,9 @@
 
 [简体中文](./REDME-CN.md)
 
-Everything you need to know to prepare for a technical interview. Beginner-friendly tutorial of Data Structure and Algorithm, summary of categorized algorithm questions, and notes for Java and Object Oriented Design. English version tutorial will be updating regularly, please check my website: [Algorithm Interview Preparation](https://dongxiaoran.com/en/algo/)  by dongxiaoran.
+Everything you need to know to prepare for a technical interview. Beginner-friendly tutorial of Data Structure and Algorithm, summary of categorized algorithm questions, and notes for Java and Object Oriented Design. English version tutorial will be updating regularly, please check my website: 
+
+**[Algorithm Interview Preparation](https://dongxiaoran.com/en/algo/)  by dongxiaoran.**
 
 Welcome to check my repository [LeetCode-Solution-Well-Explained](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) with detailed explanations and comments for LeetCode questions in different categories. If this is helpful for you, please feel free to add a star to the repo. Thank you! ❤️
 
@@ -20,14 +22,14 @@ This repo will be updated as following parts:
 ## Table of Contents
 
 * Algorithm
-  * [Fundamental](https://github.com/zdong1995/Algorithm-Interview##fundamental)
-  * [Recursion](https://github.com/zdong1995/Algorithm-Interview##recursion)
-  * [Two Pointers](https://github.com/zdong1995/Algorithm-Interview##two-pointers)
-  * [Sorting](https://github.com/zdong1995/Algorithm-Interview##sorting)
-  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/Algorithm-Interview##bfs)
-  * [Depth First Search \(DFS\)](https://github.com/zdong1995/Algorithm-Interview##dfs)
-  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/Algorithm-Interview##dp)
-  * [Popular Problems](https://github.com/zdong1995/Algorithm-Interview##popular)
+  * [Fundamental](https://github.com/zdong1995/Algorithm-Interview#fundamental)
+  * [Recursion](https://github.com/zdong1995/Algorithm-Interview#recursion)
+  * [Two Pointers](https://github.com/zdong1995/Algorithm-Interview#two-pointers)
+  * [Sorting](https://github.com/zdong1995/Algorithm-Interview#sorting)
+  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/Algorithm-Interview#bfs)
+  * [Depth First Search \(DFS\)](https://github.com/zdong1995/Algorithm-Interview#dfs)
+  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/Algorithm-Interview#dp)
+  * [Popular Problems](https://github.com/zdong1995/Algorithm-Interview#popular)
   
 * Implementation
   * [Java](https://github.com/zdong1995/Algorithm-Interview##java)
