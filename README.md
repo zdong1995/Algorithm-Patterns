@@ -1,99 +1,94 @@
-# Coding Interview
-
+# 零基础算法面试指南
 [![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Interview-blue?&logo=github)](https://github.com/zdong1995/Algorithm-Interview) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Algorithm-Interview/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
 
-[简体中文](./REDME-CN.md)
+[English Version](./README-EN.md)
 
-Everything you need to know to prepare for a technical interview. Beginner-friendly tutorial of Data Structure and Algorithm, summary of categorized algorithm questions, and notes for Java and Object Oriented Design. English version tutorial will be updating regularly, please check my website: 
+大家好，我是小染，这份算法与数据结构指南适用于转行和零基础同学，按类型题目整理更新，带你从零开始培养算法思维和准备算法面试。Repo 中包含有按类别总结的源码，便于 debug 练习，算法讲解文章链接：[小染的零基础算法面试指南](https://dongxiaoran.com/algo/)。
 
-**[Algorithm Interview Preparation](https://dongxiaoran.com/en/algo/)  by dongxiaoran.**
+欢迎点击上方 Badge 链接阅读我的 LeetCode Solutin 代码，如果对你有帮助欢迎在 Github 点个 Star 和关注微信公众号『[董小染](https://dongxiaoran.com/images/qrcode.png)』。
 
-Welcome to check my repository [LeetCode-Solution-Well-Explained](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) with detailed explanations and comments for LeetCode questions in different categories. If this is helpful for you, please feel free to add a star to the repo. Thank you! ❤️
+文章分为以下几部分进行安排，带你掌握面试高频算法与数据结构：
+- 第一部分：从基础数据结构入手，从递归思想的入门与深化，再到高频的双指针和排序算法。
+- 第二部分：掌握搜索算法，宽度优先，深度优先，到记忆存储，剪枝优化，入门动态规划。
+- 第三部分：高频面试题目分析，复杂题目讲解，高级数据结构等。
+- 第四部分：Java 与 OOD 面向对象程序设计。
 
-This repo will be updated as following parts:
-- Part 1: Start from basic Data Structure and Algorithm to get good understanding of Recursion, use Two Pointers technique in large mounts of questions and  practice sorting algorithms.
+### 1. 基础数据结构与算法 
 
-- Part 2: Search algorithm, especially graph search. BFS, DFS, pruning, memoization, greedy and dynamic programming.
+- [ ] 当我们在刷题时到底在刷什么
 
-- Part 3: Popular problems and advanced data structure like Trie, Union Find, TreeSet, TreeMap.
+- [ ] 常用数据结构总结
 
-- Part 4: Java and Object-oriented Programming.
+- [ ] Iterative in LinkedList
 
-## Table of Contents
+- [ ] Binary Search
 
-* Algorithm
-  * [Fundamental](https://github.com/zdong1995/Algorithm-Interview#fundamental)
-  * [Recursion](https://github.com/zdong1995/Algorithm-Interview#recursion)
-  * [Two Pointers](https://github.com/zdong1995/Algorithm-Interview#two-pointers)
-  * [Sorting](https://github.com/zdong1995/Algorithm-Interview#sorting)
-  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/Algorithm-Interview#bfs)
-  * [Depth First Search \(DFS\)](https://github.com/zdong1995/Algorithm-Interview#dfs)
-  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/Algorithm-Interview#dp)
-  * [Popular Problems](https://github.com/zdong1995/Algorithm-Interview#popular)
-  
-* Implementation
-  * [Java](https://github.com/zdong1995/Algorithm-Interview##java)
-* Object Oriented Programming
-  * [Design Pattern](https://github.com/zdong1995/Algorithm-Interview##design-pattern)
-  * [OOD Practice](https://github.com/zdong1995/Algorithm-Interview##ood-practice)
+### 2. 优雅重要的递归思维
 
-## Algorithm
+- [ ] Introduction to Recursion
 
-Popular interview algorithm problems summarized by different patterns.
+- [ ] Recursion in LinkedList
 
-### Fundamental
+- [ ] Recursion in Tree
 
-* [ ] Introduction to Algorithms in Interview
-* [ ] Summary of Data Structure
-* [ ] Iterative in LinkedList
-* [ ] Binary Search
+- [ ] Recursion to Iterative
 
-### Recursion
+### 3. 巧妙高效的双指针
 
-* [ ] Introduction to Recursion
-* [ ] Recursion in LinkedList
-* [ ] Recursion in Tree
-* [ ] Recursion to Iterative
+- [x] Two Sum Pattern: [Code](src/main/java/algorithm/array/twosum)
+- [ ] Slow-Fast Pointers
 
-### Two Pointers
+- [ ] K-way Merge
 
-* [x] Two Sum Pattern: [Code](src/main/java/algorithm/array/twosum)
-* [ ] Slow-Fast Pointers
-* [ ] K-way Merge
-* [ ] Deduplication
-* [ ] Sliding Window
-* [ ] Partition
+- [ ] Deduplication
 
-### Sorting
+- [ ] Sliding Window
 
-* [ ] Merge Sort
-* [ ] Quick Sort
-* [ ] Quick Selection
-* [ ] Bucket Sort and Count Sort
+- [ ] Partition
 
-### BFS
+### 4. 轻松手写排序算法
 
-* [ ] Level Order Traversal
-* [ ] The Shortest Path
-* [ ] Connected Component
-* [ ] Topology Sorting
-* [ ] Best-First Search and Dijkstra
+- [ ] Merge Sort
 
-### DFS
+- [ ] Quick Sort
 
-* [ ] Subset
-* [ ] Permutation
-* [ ] Parentheses
-* [ ] Memoization
-* [ ] Graph Search
+- [ ] Quick Selection
 
-### DP
+- [ ] Comparasion-based Sort
 
-* [ ] 1D DP
-* [ ] 2D DP
-* [ ] Greedy
+### 5. 宽度优先搜索
 
-### Popular
+- [ ] Level Order Traversal
+
+- [ ] The Shortest Path
+
+- [ ] Connected Component
+
+- [ ] Topology Sorting
+
+- [ ] Best First Search and Dijkstra
+
+### 6. 深度优先搜索
+
+- [ ] Subset
+
+- [ ] Permutation
+
+- [ ] Parentheses
+
+- [ ] Memoization
+
+- [ ] Graph Search
+
+### 7. 数学归纳法与动态规划
+
+- [ ] 1D DP
+
+- [ ] 2D DP
+
+- [ ] Greedy
+
+### 8. 高频题目类型讲解
 
 - [ ] Merge Intervals
 
@@ -107,30 +102,24 @@ Popular interview algorithm problems summarized by different patterns.
 
 - [ ] Bit Operations
 
-## Implementation
+### 9. Java 学习笔记
 
-Implementation of data structures and practice of Java programming language.
+- [ ] Java Basic Review
 
-### Java
+- [ ] Data Strucutre Implementation
 
-* [ ] Multi-thread
-* [ ] ConcurrentHashMap
-* [ ] Enum
-* [ ] Nested Class
-* [ ] Exception
-* [ ] Polymorphism
-* [ ] Generic and Wild Card
+- [ ] Multi-thread and Concurrency
 
-## Object Oriented Design
+### 10. 面向对象设计
 
-### Design Pattern
+- [ ] Encapsulation, Polymorphism and Inheritance
 
-* [ ] Singleton
-* [ ] Builder
+- [ ] Singleton Pattern
 
-### OOD Practice
+- [ ] Builder Pattern
 
-* [ ] Parking Lot
-* [ ] BlackJack
-* [ ] In Memory File System
-* [ ] Elevator
+- [ ] Factory Pattern
+
+- [ ] Design Pattern
+
+- [ ] OOD Practice
