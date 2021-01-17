@@ -15,7 +15,9 @@
 
 ### 1. 基础数据结构与算法 
 
-- [ ] 当我们在刷题时到底在刷什么
+- [x] [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://dongxiaoran.com/algo/basic/intro)
+
+- [x] [当我们谈论刷题时，到底在刷什么](https://dongxiaoran.com/algo/basic/how/)
 
 - [ ] 常用数据结构总结
 
