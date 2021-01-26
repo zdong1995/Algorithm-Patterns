@@ -1,6 +1,6 @@
 # Pattern Summary for Algorithm Problems
 
-[![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Interview-blue?&logo=github)](https://github.com/zdong1995/Algorithm-Interview) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Algorithm-Interview/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
+[![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Pattern-blue?&logo=github)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
 
 My summary of patterns for algorithm questions, based on similarities of techniques we used to solve the problem, with detailed beginner-friendly tutorial of Data Structure and Algorithm.
 
@@ -19,22 +19,20 @@ This repo will be updated as following parts:
 
 ### Table of Contents
 
-* [Fundamental](https://github.com/zdong1995/Algorithm-Interview#fundamental)
-* [Recursion](https://github.com/zdong1995/Algorithm-Interview#recursion)
-* [Two Pointers](https://github.com/zdong1995/Algorithm-Interview#two-pointers)
-* [Sorting](https://github.com/zdong1995/Algorithm-Interview#sorting)
-* [Breadth First Search \(BFS\)](https://github.com/zdong1995/Algorithm-Interview#bfs)
-* [Depth First Search \(DFS\)](https://github.com/zdong1995/Algorithm-Interview#dfs)
-* [Dynamic Programming \(DP\)](https://github.com/zdong1995/Algorithm-Interview#dp)
-* [Popular Problems](https://github.com/zdong1995/Algorithm-Interview#popular)
+* [Fundamental](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#fundamental)
+* [Recursion](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#recursion)
+* [Two Pointers](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#two-pointers)
+* [Sorting](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#sorting)
+* [Breadth First Search \(BFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#bfs)
+* [Depth First Search \(DFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#dfs)
+* [Dynamic Programming \(DP\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#dp)
+* [Popular Problems](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#popular)
 
 Popular interview algorithm problems summarized by different patterns.
 
 ### Fundamental
 
-* [ ] Introduction to Algorithms in Interview
-* [ ] Summary of Data Structure
-* [ ] Iterative in LinkedList
+* [x] Iterative in LinkedList: [Code](src/main/java/algorithm/basic/iterative)
 * [ ] Binary Search
 
 ### Recursion
@@ -46,7 +44,7 @@ Popular interview algorithm problems summarized by different patterns.
 
 ### Two Pointers
 
-* [x] Two Sum Pattern: [Code](src/main/java/algorithm/array/twosum)
+* [x] Two Sum Pattern: [Code](src/main/java/algorithm/pointers/twosum)
 * [ ] Slow-Fast Pointers
 * [ ] K-way Merge
 * [ ] Deduplication

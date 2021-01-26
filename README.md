@@ -1,5 +1,5 @@
 # 零基础算法面试指南
-[![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Interview-blue?&logo=github)](https://github.com/zdong1995/Algorithm-Interview) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Algorithm-Interview/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
+[![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Pattern-blue?&logo=github)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
 
 [English Version](./README-EN.md)
 
@@ -12,11 +12,22 @@
 - 第二部分：掌握搜索算法，宽度优先，深度优先，到记忆存储，剪枝优化，入门动态规划。
 - 第三部分：高频面试题目分析，复杂题目讲解，高级数据结构等。
 
+### 目录
+
+1. [基础数据结构与算法](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#fundamental)
+2. [优雅重要的递归思维](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#recursion)
+3. [巧妙高效的双指针](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#two-pointers)
+4. [轻松手写排序算法](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#sorting)
+5. [宽度优先搜索 \(BFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#bfs)
+6. [深度优先搜索 \(DFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#dfs)
+7. [数学归纳法与动态规划 \(DP\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#dp)
+8. [高频题目类型讲解](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#popular)
+
 ### 1. 基础数据结构与算法 
 
 - [x] [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://dongxiaoran.com/algo/basic/intro/)
 - [x] [当我们谈论刷题时，到底在刷什么](https://dongxiaoran.com/algo/basic/how/)
-- [x] [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://dongxiaoran.com/algo/basic/iterativelist/)
+- [x] [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://dongxiaoran.com/algo/basic/iterativelist/): [Code](src/main/java/algorithm/basic/iterative)
 
 - [ ] Binary Search
 
@@ -32,7 +43,7 @@
 
 ### 3. 巧妙高效的双指针
 
-- [x] Two Sum Pattern: [Code](src/main/java/algorithm/array/twosum)
+- [x] Two Sum Pattern: [Code](src/main/java/algorithm/pointers/twosum)
 - [ ] Slow-Fast Pointers
 
 - [ ] K-way Merge
@@ -51,7 +62,7 @@
 
 - [ ] Quick Selection
 
-- [ ] Comparasion-based Sort
+- [ ] Comparison-based Sort
 
 ### 5. 宽度优先搜索
 
