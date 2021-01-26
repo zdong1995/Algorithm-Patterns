@@ -1,10 +1,12 @@
-# Coding Interview
+# Pattern Summary for Algorithm Problems
 
 [![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Interview-blue?&logo=github)](https://github.com/zdong1995/Algorithm-Interview) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Algorithm-Interview/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
 
-Everything you need to know to prepare for a technical interview. Beginner-friendly tutorial of Data Structure and Algorithm, summary of categorized algorithm questions, and notes for Java and Object Oriented Design. English version tutorial will be updating regularly, please check my website: 
+My summary of patterns for algorithm questions, based on similarities of techniques we used to solve the problem, with detailed beginner-friendly tutorial of Data Structure and Algorithm.
 
-**[Algorithm Interview Preparation](https://dongxiaoran.com/en/algo/)  by dongxiaoran.**
+English version tutorial will be updating regularly, please check my website: 
+
+[Algorithm Interview Preparation](https://dongxiaoran.com/en/algo/)  by **zdong1995**.
 
 Welcome to check my repository [LeetCode-Solution-Well-Explained](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) with detailed explanations and comments for LeetCode questions in different categories. If this is helpful for you, please feel free to add a star to the repo. Thank you! ❤️
 
@@ -15,27 +17,16 @@ This repo will be updated as following parts:
 
 - Part 3: Popular problems and advanced data structure like Trie, Union Find, TreeSet, TreeMap.
 
-- Part 4: Java and Object-oriented Programming.
+### Table of Contents
 
-## Table of Contents
-
-* Algorithm
-  * [Fundamental](https://github.com/zdong1995/Algorithm-Interview#fundamental)
-  * [Recursion](https://github.com/zdong1995/Algorithm-Interview#recursion)
-  * [Two Pointers](https://github.com/zdong1995/Algorithm-Interview#two-pointers)
-  * [Sorting](https://github.com/zdong1995/Algorithm-Interview#sorting)
-  * [Breadth First Search \(BFS\)](https://github.com/zdong1995/Algorithm-Interview#bfs)
-  * [Depth First Search \(DFS\)](https://github.com/zdong1995/Algorithm-Interview#dfs)
-  * [Dynamic Programming \(DP\)](https://github.com/zdong1995/Algorithm-Interview#dp)
-  * [Popular Problems](https://github.com/zdong1995/Algorithm-Interview#popular)
-  
-* Implementation
-  * [Java](https://github.com/zdong1995/Algorithm-Interview##java)
-* Object Oriented Programming
-  * [Design Pattern](https://github.com/zdong1995/Algorithm-Interview##design-pattern)
-  * [OOD Practice](https://github.com/zdong1995/Algorithm-Interview##ood-practice)
-
-## Algorithm
+* [Fundamental](https://github.com/zdong1995/Algorithm-Interview#fundamental)
+* [Recursion](https://github.com/zdong1995/Algorithm-Interview#recursion)
+* [Two Pointers](https://github.com/zdong1995/Algorithm-Interview#two-pointers)
+* [Sorting](https://github.com/zdong1995/Algorithm-Interview#sorting)
+* [Breadth First Search \(BFS\)](https://github.com/zdong1995/Algorithm-Interview#bfs)
+* [Depth First Search \(DFS\)](https://github.com/zdong1995/Algorithm-Interview#dfs)
+* [Dynamic Programming \(DP\)](https://github.com/zdong1995/Algorithm-Interview#dp)
+* [Popular Problems](https://github.com/zdong1995/Algorithm-Interview#popular)
 
 Popular interview algorithm problems summarized by different patterns.
 
@@ -104,31 +95,3 @@ Popular interview algorithm problems summarized by different patterns.
 - [ ] Data Structure Design
 
 - [ ] Bit Operations
-
-## Implementation
-
-Implementation of data structures and practice of Java programming language.
-
-### Java
-
-* [ ] Multi-thread
-* [ ] ConcurrentHashMap
-* [ ] Enum
-* [ ] Nested Class
-* [ ] Exception
-* [ ] Polymorphism
-* [ ] Generic and Wild Card
-
-## Object Oriented Design
-
-### Design Pattern
-
-* [ ] Singleton
-* [ ] Builder
-
-### OOD Practice
-
-* [ ] Parking Lot
-* [ ] BlackJack
-* [ ] In Memory File System
-* [ ] Elevator
