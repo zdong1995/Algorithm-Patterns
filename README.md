@@ -17,9 +17,6 @@
 - [x] [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://dongxiaoran.com/algo/basic/intro/)
 - [x] [当我们谈论刷题时，到底在刷什么](https://dongxiaoran.com/algo/basic/how/)
 - [x] [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://dongxiaoran.com/algo/basic/iterativelist/)
-- [ ] 常用数据结构总结
-
-- [ ] Iterative in LinkedList
 
 - [ ] Binary Search
 
@@ -100,4 +97,30 @@
 
 - [ ] Data Structure Design
 
+<<<<<<< HEAD
 - [ ] Bit Operations
+=======
+- [ ] Bit Operations
+
+### 9. Java 学习笔记
+
+- [ ] Java Basic Review
+
+- [ ] Data Strucutre Implementation
+
+- [ ] Multi-thread and Concurrency
+
+### 10. 面向对象设计
+
+- [ ] Encapsulation, Polymorphism and Inheritance
+
+- [ ] Singleton Pattern
+
+- [ ] Builder Pattern
+
+- [ ] Factory Pattern
+
+- [ ] Design Pattern
+
+- [ ] OOD Practice
+>>>>>>> 6d10150a335b05623ef687622a5aece971c238cd
