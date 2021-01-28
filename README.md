@@ -25,9 +25,9 @@
 
 ### 1. 基础数据结构与算法 
 
-- [x] [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://dongxiaoran.com/algo/basic/intro/)
-- [x] [当我们谈论刷题时，到底在刷什么](https://dongxiaoran.com/algo/basic/how/)
-- [x] [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://dongxiaoran.com/algo/basic/iterativelist/): [Code](src/main/java/algorithm/basic/iterative)
+- [x] 半年零基础到 LeetCode 300 题，我的算法学习方法论: ✅ [Post](https://dongxiaoran.com/algo/basic/intro/)
+- [x] 当我们谈论刷题时，到底在刷什么: ✅ [Post](https://dongxiaoran.com/algo/basic/how/)
+- [x] 一题顶四题，一道题掌握 LinkedList 的 Iterative: ✅ [Post](https://dongxiaoran.com/algo/basic/iterativelist/) ⭐️ [Code](src/main/java/algorithm/basic/iterative)
 
 - [ ] Binary Search
 
