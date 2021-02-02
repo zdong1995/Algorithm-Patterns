@@ -4,7 +4,7 @@ import datastrcture.*;
 
 /**
  * Given a singly linked list L_0 → L_1 → … → L_{n-1} → L_n
- * Reverse it to L_n → L_{n-1} → … → L_1 → L_0
+ * Reverse it to L_0 → L_n → L_{n-1} → … → L_1 → L_0
  */
 public class ReorderList {
     public void reorderList(ListNode head) {
