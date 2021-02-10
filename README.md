@@ -1,38 +1,68 @@
-# 零基础算法面试指南
-[![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Pattern-blue?&logo=github)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java) ![Build](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems/workflows/Build/badge.svg)  [![](https://img.shields.io/badge/Github-zdong1995-blue?style=social&logo=github)](https://github.com/zdong1995/)
+[![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Pattern-blue?&logo=github)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java)   ![](https://img.shields.io/badge/English-ClickHere-de5f63?logo=markdown) ![Build](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems/workflows/Build/badge.svg)
 
-[English Version](./README-EN.md)
+![](./docs/img/qrcode.png)
+文章首发于公众号『[董小染](./docs/img/wechat.png)』，算法文章主页：[https://dongxiaoran.com/algo/](https://dongxiaoran.com/algo/)
 
-大家好，我是小染，这份算法与数据结构指南适用于转行和零基础同学，按类型题目整理更新，带你从零开始培养算法思维和准备算法面试。Repo 中包含有按类别总结的源码，便于 debug 练习，算法讲解文章链接：[小染的零基础算法面试指南](https://dongxiaoran.com/algo/)。
+---
 
-欢迎点击上方 Badge 链接阅读我的 LeetCode Solution 代码，如果对你有帮助欢迎在 Github 点个 Star 和关注微信公众号『[董小染](https://dongxiaoran.com/images/qrcode.png)』。
+⭐️ Repo 中含有按类别总结的源码，便于本地 debug 练习。对于没有收录的题目，欢迎点击上方 Badge 链接阅读我的 [LeetCode Solution Well Explained](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) 代码，如果对你有帮助欢迎在 **Github 点个 Star**。
 
-文章分为以下几部分进行安排，带你掌握面试高频算法与数据结构：
+![](./docs/img/algo-summary.png)
+
+在当前 LeetCode 千题时代下，刷完所有的题目是不现实的，因此更重要的是培养自己的**算法思维**和扎实**数据结构知识**，举一反三，深化思维，争取**做一题解决一类题目**，一通百通，高效快速准备算法面试。
+
+本仓库归纳总结了 LeetCode 的同类型及相似思路的题目，按照从易到难的顺序，从线性到非线性数据结构的『增删改查』，从基础 Iterative 到深化 Recursion 思想，从 Intuitive 的算法到高阶的优化技巧，选取都是我认为比较经典或培养算法思维的题目，带你搭建起来自己的思维框架和套路模板。
+
 - 第一部分：从基础数据结构入手，从递归思想的入门与深化，再到高频的双指针和排序算法。
 - 第二部分：掌握搜索算法，宽度优先，深度优先，到记忆存储，剪枝优化，入门动态规划。
 - 第三部分：高频面试题目分析，复杂题目讲解，高级数据结构等。
 
-### 目录
+![](./docs/img/ds-summary.png)
 
-1. [基础数据结构与算法](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#fundamental)
-2. [优雅重要的递归思维](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#recursion)
-3. [巧妙高效的双指针](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#two-pointers)
-4. [轻松手写排序算法](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#sorting)
-5. [宽度优先搜索 \(BFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#bfs)
-6. [深度优先搜索 \(DFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#dfs)
-7. [数学归纳法与动态规划 \(DP\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#dp)
-8. [高频题目类型讲解](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#popular)
+在开始刷题学习前，花几分钟阅读一下我总结的算法学习方法论和我的刷题练习经验分享，帮助你建立一个更清晰的 big picture 和学习思路。
 
-### 1. 基础数据结构与算法 
+- [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://dongxiaoran.com/algo/basic/intro/)
+- [当我们谈论刷题时，到底在刷什么](https://dongxiaoran.com/algo/basic/how/)
 
-- [x] 半年零基础到 LeetCode 300 题，我的算法学习方法论: ✅ [Post](https://dongxiaoran.com/algo/basic/intro/)
-- [x] 当我们谈论刷题时，到底在刷什么: ✅ [Post](https://dongxiaoran.com/algo/basic/how/)
-- [x] 一题顶四题，一道题掌握 LinkedList 的 Iterative: ✅ [Post](https://dongxiaoran.com/algo/basic/iterativelist/) ⭐️ [Code](src/main/java/algorithm/basic/iterative)
-- [x] Tree 还可以这样 O(1) 空间遍历？四题带你深入理解 LinkedList 与 Tree 的关系: ✅ [Post](https://dongxiaoran.com/algo/basic/treetolist/) ⭐️ [Code](src/main/java/algorithm/basic/iterativetree)
 
-- [ ] Binary Search
+## 目录
 
-### 2. 优雅重要的递归思维
+1. [基础数据结构与算法](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#1-基础数据结构与算法)
+2. [优雅重要的递归思维](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#2-优雅重要的递归思维)
+3. [巧妙高效的双指针](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#3-巧妙高效的双指针)
+4. [轻松手写排序算法](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#4-轻松手写排序算法)
+5. [宽度优先搜索 \(BFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#5-宽度优先搜索)
+6. [深度优先搜索 \(DFS\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#6-深度优先搜索)
+7. [数学归纳法与动态规划 \(DP\)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#7-从数学归纳法入门动态规划)
+8. [高频题目类型讲解](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems#8-高频题目类型讲解)
+
+## 1. 基础数据结构与算法 
+
+### 1.1 LinkedList 的 Iterative 操作
+#### ⌨️ Article: [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://dongxiaoran.com/algo/basic/iterativelist/)
+
+#### 👻 Algorithm Questions:
+
+- LC143: Reorder List
+- LC876: Find the middle node of Linked List
+- LC206: Reverse Linked List
+- LC21: Merge Two Sorted Linked list
+  
+#### ✅ Solution: [My Java Code](src/main/java/algorithm/basic/iterative)
+  
+### 1.2 Tree Iterative Traversal as Multi-level LinkedList
+
+#### ⌨️ Article: [Tree 还可以这样 O(1) 空间遍历？四题带你深入理解 LinkedList 与 Tree 的关系](https://dongxiaoran.com/algo/basic/treetolist/)
+
+#### 👻 Algorithm Questions:
+- LC114: Flatten Binary Tree to Linked List
+- LC430: Flatten a Multilevel Doubly Linked List
+- LC116: Populating Next Right Pointers in Each Node
+- LC117: Populating Next Right Pointers in Each Node II
+#### ✅ Solution: [My Java Code](src/main/java/algorithm/basic/iterativetree)
+
+
+## 2. 优雅重要的递归思维
 
 - [ ] Introduction to Recursion
 
@@ -42,7 +72,7 @@
 
 - [ ] Recursion to Iterative
 
-### 3. 巧妙高效的双指针
+## 3. 巧妙高效的双指针
 
 - [x] Two Sum Pattern: [Code](src/main/java/algorithm/pointers/twosum)
 - [ ] Slow-Fast Pointers
@@ -55,7 +85,7 @@
 
 - [ ] Partition
 
-### 4. 轻松手写排序算法
+## 4. 轻松手写排序算法
 
 - [ ] Merge Sort
 
@@ -65,7 +95,7 @@
 
 - [ ] Comparison-based Sort
 
-### 5. 宽度优先搜索
+## 5. 宽度优先搜索
 
 - [ ] Level Order Traversal
 
@@ -77,7 +107,7 @@
 
 - [ ] Best First Search and Dijkstra
 
-### 6. 深度优先搜索
+## 6. 深度优先搜索
 
 - [ ] Subset
 
@@ -89,7 +119,7 @@
 
 - [ ] Graph Search
 
-### 7. 数学归纳法与动态规划
+## 7. 从数学归纳法入门动态规划
 
 - [ ] 1D DP
 
@@ -97,7 +127,7 @@
 
 - [ ] Greedy
 
-### 8. 高频题目类型讲解
+## 8. 高频题目类型讲解
 
 - [ ] Merge Intervals
 
@@ -109,30 +139,5 @@
 
 - [ ] Data Structure Design
 
-<<<<<<< HEAD
-- [ ] Bit Operations
-=======
 - [ ] Bit Operations
 
-### 9. Java 学习笔记
-
-- [ ] Java Basic Review
-
-- [ ] Data Strucutre Implementation
-
-- [ ] Multi-thread and Concurrency
-
-### 10. 面向对象设计
-
-- [ ] Encapsulation, Polymorphism and Inheritance
-
-- [ ] Singleton Pattern
-
-- [ ] Builder Pattern
-
-- [ ] Factory Pattern
-
-- [ ] Design Pattern
-
-- [ ] OOD Practice
->>>>>>> 6d10150a335b05623ef687622a5aece971c238cd
