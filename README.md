@@ -1,7 +1,7 @@
 [![](https://img.shields.io/badge/LeetCode-Solution-yellow?logo=leetcode)](https://github.com/zdong1995/LeetCode-Solution-Well-Explained) [![](https://img.shields.io/badge/Algo-Pattern-blue?&logo=github)](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems) ![java](https://img.shields.io/badge/Language-Java-orange?logo=java)   [![](https://img.shields.io/badge/English-ClickHere-de5f63?logo=markdown)](README-EN.md) ![Build](https://github.com/zdong1995/Pattern-Summary-for-Algorithm-Problems/workflows/Build/badge.svg)
 
 ![](./docs/img/qrcode.png)
-文章首发于公众号『[董小染](./docs/img/wechat.png)』，算法文章主页：[https://dongxiaoran.com/algo/](https://dongxiaoran.com/algo/)
+文章首发于公众号『[董小染](./docs/img/wechat.png)』，算法文章主页：[https://blog.andydong.com/algo/](https://blog.andydong.com/algo/)
 
 ---
 
@@ -21,8 +21,8 @@ PS: 本仓库含有按类别总结题目的源码，便于本地 debug 练习。
 
 在开始刷题学习前，花几分钟阅读一下我总结的算法学习方法论和我的刷题练习经验分享，帮助你建立一个更清晰的 big picture 和学习思路。
 
-- [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://dongxiaoran.com/algo/basic/intro/)
-- [当我们谈论刷题时，到底在刷什么](https://dongxiaoran.com/algo/basic/how/)
+- [半年零基础到 LeetCode 300 题，我的算法学习方法论](https://blog.andydong.com/algo/basic/intro/)
+- [当我们谈论刷题时，到底在刷什么](https://blog.andydong.com/algo/basic/how/)
 
 ### 目录
 
@@ -38,7 +38,7 @@ PS: 本仓库含有按类别总结题目的源码，便于本地 debug 练习。
 ### 1. 基础数据结构与算法 
 
 #### 1.1 LinkedList 的 Iterative 操作
-- **Article**: [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://dongxiaoran.com/algo/basic/iterativelist/)
+- **Article**: [一题顶四题，一道题掌握 LinkedList 的 Iterative](https://blog.andydong.com/algo/basic/iterativelist/)
 - **Algorithm Questions**:
     - LC143: Reorder List
     - LC876: Find the middle node of Linked List
@@ -48,7 +48,7 @@ PS: 本仓库含有按类别总结题目的源码，便于本地 debug 练习。
   
 #### 1.2 Tree Iterative Traversal as Multi-level LinkedList
 
-- **Article**: [Tree 还可以这样 O(1) 空间遍历？四题带你深入理解 LinkedList 与 Tree 的关系](https://dongxiaoran.com/algo/basic/treetolist/)
+- **Article**: [Tree 还可以这样 O(1) 空间遍历？四题带你深入理解 LinkedList 与 Tree 的关系](https://blog.andydong.com/algo/basic/treetolist/)
 - **Algorithm Questions**:
     - LC114: Flatten Binary Tree to Linked List
     - LC430: Flatten a Multilevel Doubly Linked List
